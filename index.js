@@ -18,7 +18,7 @@ const calculate = () => {
 		}
 
 		const ga = (new Date(edd) - new Date(tob));
-		const days = 40 * 7 - Math.floor(ga / (1000 * 60 * 60 * 24)); // Total ga in days
+		let days = 40 * 7 - Math.floor(ga / (1000 * 60 * 60 * 24)); // Total ga in days
 		const weeks = Math.floor(days / 7);
 		days = days % 7;
 
