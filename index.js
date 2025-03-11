@@ -12,7 +12,7 @@ const calculate = () => {
 	if (edd && tob) {
 		const edd_date = new Date(edd);
 		const tob_date = new Date(tob);
-		if (edd_data == 'Invalid Date' || tob_date == 'Invalid Date') {
+		if (edd_date == 'Invalid Date' || tob_date == 'Invalid Date') {
 			document.getElementById('result').value = 'Invalid Date';
 			return;
 		}
